@@ -8,3 +8,4 @@ abstract class Result<T> with _$Result<T> {
 
   const factory Result.error(String message) = Error;
 }
+
